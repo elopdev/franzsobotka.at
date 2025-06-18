@@ -456,6 +456,15 @@ body {
     min-width: 120px;
 }
 
+.termin-date .weekday {
+    font-size: 0.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+}
+
 .termin-date .day {
     font-size: 3rem;
     font-weight: 700;
