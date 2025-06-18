@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://franzsobotka.at/sitemap.xml
+
+# Crawl-delay (optional, höflich gegenüber Servern)
+Crawl-delay: 1
