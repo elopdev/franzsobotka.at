@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Franz Sobotka - Satirische Programme mit Liedern und Geschichten. Erleben Sie intelligenten Humor und musikalisches Können in Wien. Nächster Auftritt: 20. September im Tschocherl.">
+    <title>Franz Sobotka - Künstler & Entertainer</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://franzsobotka.at/">
+    <meta property="og:title" content="Franz Sobotka - Künstler & Entertainer">
+    <meta property="og:description" content="Satirische Programme mit Liedern und Geschichten. Erleben Sie intelligenten Humor und musikalisches Können.">
+    <meta property="og:image" content="https://franzsobotka.at/images/franz-studio.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://franzsobotka.at/">
+    <meta property="twitter:title" content="Franz Sobotka - Künstler & Entertainer">
+    <meta property="twitter:description" content="Satirische Programme mit Liedern und Geschichten. Erleben Sie intelligenten Humor und musikalisches Können.">
+    <meta property="twitter:image" content="https://franzsobotka.at/images/franz-studio.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
+    <!-- Preload fonts for better performance -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" as="style">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Franz Sobotka",
+        "url": "https://franzsobotka.at",
+        "sameAs": [
+            "https://www.youtube.com/@FSobotka",
+            "https://www.facebook.com/franz.sobotka.9"
+        ],
+        "jobTitle": "Künstler und Entertainer",
+        "description": "Satirische Programme mit Liedern und Geschichten",
+        "performerIn": {
+            "@type": "Event",
+            "name": "Wie alt muss man sein, um nicht jung zu sein",
+            "startDate": "2025-09-20T19:30:00+02:00",
+            "location": {
+                "@type": "Place",
+                "name": "Tschocherl",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Wurmsergasse 42",
+                    "addressLocality": "Wien",
+                    "postalCode": "1150",
+                    "addressCountry": "AT"
+                }
+            },
+            "offers": {
+                "@type": "Offer",
+                "url": "https://www.reservix.at/veranstaltungskalender?city=wien-at&end_date=2025-09-20&q=tschocherl&sort=date&start_date=2025-09-20",
+                "availability": "https://schema.org/InStock"
+            }
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <h1 class="loader-title">Franz Sobotka</h1>
+            <p class="loader-subtitle">Musik • Satire • Entertainment</p>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="images/logo.png" alt="Franz Sobotka Logo" class="nav-logo-img">
+                <span>Franz Sobotka</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Navigation öffnen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu" role="list">
+                <li><a href="#about" class="nav-link">Über Franz</a></li>
+                <li><a href="#programme" class="nav-link">Programme</a></li>
+                <li><a href="#termine" class="nav-link">Termine</a></li>
+                <li><a href="#archiv" class="nav-link">Vergangene Auftritte</a></li>
+                <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Franz Sobotka</h1>
+            <p class="hero-subtitle">Musik • Satire • Entertainment</p>
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/franz-studio.jpg" alt="Franz Sobotka">
+        </div>
+    </section>
+
+    <!-- Über Franz Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">Über Franz</h2>
+            <div class="about-content">
+                <div class="about-image" role="img" aria-label="Franz Sobotka auf der Bühne mit Gitarre"></div>
+                <div class="about-text">
+                    <p>Franz Sobotka ist ein vielseitiger Künstler, der mit seinen satirischen Programmen und Liedern das Publikum begeistert. Mit Gitarre und scharfem Witz nimmt er die großen und kleinen Themen des Lebens aufs Korn.</p>
+                    <p>Seine satirischen Abende verbinden musikalisches Können mit intelligentem Humor und bieten einen unterhaltsamen Abend voller Überraschungen. Ob es um das Älterwerden, gesellschaftliche Absurditäten oder die kleinen Tücken des Alltags geht – Franz Sobotka findet immer den richtigen Ton zwischen Musik und Satire.</p>
+                    <p>Mit jahrelanger Bühnenerfahrung und einem unverwechselbaren Stil hat er sich in der österreichischen Kulturszene etabliert und begeistert sein Publikum immer wieder aufs Neue mit seinen satirischen Programmen, die von eigenen Liedern begleitet werden.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programme Section -->
+    <section class="section programme" id="programme">
+        <div class="container">
+            <h2 class="section-title">Aktuelles Programm</h2>
+            <div class="programme-card">
+                <h3>Wie alt muss man sein, um nicht jung zu sein</h3>
+                <p class="programme-description">
+                    Ein satirischer Abend, der schonungslos ehrlich die ewige Frage nach Alter und Jugend stellt. Franz Sobotka präsentiert satirische Geschichten und Lieder von und mit Franz über Vergesslichkeit, Weisheit und die Kunst, dem Alter entsprechend zu leben – oder auch nicht.
+                </p>
+                <p class="programme-info">
+                    Mit Gitarre, Charme und einer gehörigen Portion Selbstironie führt Franz Sobotka durch einen Abend, der beweist: Das Alter ist nur eine Zahl, aber die Pointen sitzen immer noch perfekt.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Termine Section -->
+    <section class="section termine" id="termine">
+        <div class="container">
+            <h2 class="section-title">Termine</h2>
+            <div class="termine-grid">
+                <div class="termin-card">
+                    <div class="termin-date">
+                        <span class="day">15</span>
+                        <span class="month">September</span>
+                        <div class="countdown" id="countdown-radio">
+                            <span class="countdown-label">Noch</span>
+                            <span class="countdown-time" id="countdown-radio-time">-- Tage</span>
+                        </div>
+                    </div>
+                    <div class="termin-details">
+                        <h3>Radio Interview bei Orange 94</h3>
+                        <p class="termin-time">12:00 Uhr - Gespräch über das aktuelle Programm</p>
+                        <p class="termin-location">Radio Orange 94 Stream</p>
+                        <p class="termin-address">Live Stream verfügbar</p>
+                        <a href="https://o94.at/player" class="termin-button" target="_blank">Zum Stream</a>
+                    </div>
+                </div>
+                <div class="termin-card">
+                    <div class="termin-date">
+                        <span class="day">20</span>
+                        <span class="month">September</span>
+                        <div class="countdown" id="countdown">
+                            <span class="countdown-label">Noch</span>
+                            <span class="countdown-time" id="countdown-time">-- Tage</span>
+                        </div>
+                    </div>
+                    <div class="termin-details">
+                        <h3>Wie alt muss man sein, um nicht jung zu sein</h3>
+                        <p class="termin-time">19:30 Uhr (Einlass: 18:30 Uhr)</p>
+                        <p class="termin-location">Tschocherl</p>
+                        <p class="termin-address">Wurmsergasse 42, 1150 Wien</p>
+                        <a href="https://www.reservix.at/veranstaltungskalender?city=wien-at&end_date=2025-09-20&q=tschocherl&sort=date&start_date=2025-09-20" class="termin-button" target="_blank">Tickets</a>
+                    </div>
+                </div>
+                <div class="termin-card">
+                    <div class="termin-date">
+                        <span class="day">21</span>
+                        <span class="month">September</span>
+                        <div class="countdown" id="countdown-sunday">
+                            <span class="countdown-label">Noch</span>
+                            <span class="countdown-time" id="countdown-sunday-time">-- Tage</span>
+                        </div>
+                    </div>
+                    <div class="termin-details">
+                        <h3>Wie alt muss man sein, um nicht jung zu sein</h3>
+                        <p class="termin-time">18:00 Uhr (Einlass: 17:00 Uhr)</p>
+                        <p class="termin-location">Tschocherl</p>
+                        <p class="termin-address">Wurmsergasse 42, 1150 Wien</p>
+                        <a href="https://www.reservix.at/veranstaltungskalender?city=wien-at&end_date=2025-09-21&q=tschocherl&sort=date&start_date=2025-09-21" class="termin-button" target="_blank">Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vergangene Auftritte Section -->
+    <section class="section archiv" id="archiv">
+        <div class="container">
+            <h2 class="section-title">Vergangene Auftritte</h2>
+            <div class="video-grid">
+                <!-- YouTube Videos werden hier eingefügt -->
+                <div class="video-placeholder">
+                    <p>Videos folgen in Kürze</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt Section -->
+    <section class="section kontakt" id="kontakt">
+        <div class="container">
+            <h2 class="section-title">Kontakt</h2>
+            <div class="kontakt-content">
+                <p>Für Buchungsanfragen und weitere Informationen:</p>
+                <a href="mailto:kontakt@franzsobotka.at" class="kontakt-email">kontakt@franzsobotka.at</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 Franz Sobotka. Alle Rechte vorbehalten.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/franz.sobotka.9" target="_blank" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@FSobotka" target="_blank" aria-label="YouTube">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <a href="impressum.html">Impressum</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
