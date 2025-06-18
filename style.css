@@ -731,7 +731,7 @@ body {
     }
     
     .loader-content {
-        text-align: center;
+        text-align: left;
         padding: 2rem;
     }
     
@@ -741,6 +741,10 @@ body {
     
     .loader-subtitle {
         font-size: 1.2rem;
+    }
+    
+    .loader-bar {
+        margin: 0;
     }
     
     .hero-content {
